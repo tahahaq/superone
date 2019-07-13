@@ -1,0 +1,7 @@
+img.avatar {
+  width: 175px;
+  height: 175px;
+  border-radius: 128px;
+  box-shadow: 10px 10px 20px #e5e5e5;
+  margin-bottom: 15px;
+}

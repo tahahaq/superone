@@ -1,0 +1,78 @@
+
+.headerlogo{
+  
+  float: left;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.avatar-header{
+  display: inline-block;
+  width: 30px;
+  height: 30x;
+  border-radius: 128px;
+}
+.header-elements{
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+
+}
+.header-elements h4{
+  display: inline-block;
+  color:white;
+  margin-bottom: 0px !important;
+  margin-right: 15px;
+}
+
+.email-form{
+  margin: 0 auto;
+  width: 315px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #17242a;
+  height: 10vh;
+  padding:10px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.signout-btn{
+  height: 35px !important;
+  background-color: white !important;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  color: #17242a !important;
+}
+.link-signout{
+  text-decoration: underline;
+  color: white;
+  /* align-self: center; */
+  margin-left: 15px;
+  padding: 2px;
+}
+
+
+
+
+
+.separator{
+    margin: 0 auto 14px;
+    border-top: #3d9068 2px solid;
+    width: 52px;
+    
+}

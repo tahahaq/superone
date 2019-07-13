@@ -1,0 +1,38 @@
+
+
+.header{
+    background-color: #17242a;
+    padding:10px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.signout{
+    float: right;
+    padding-right: 18px;
+    color: white;   
+}
+
+.userprofile{
+    padding: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.search{
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+
+.card{
+    box-Shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.8s ;
+background: linear-gradient( rgb(115, 201, 115),rgb(214, 198, 198));
+border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.5);
+}

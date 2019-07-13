@@ -1,0 +1,47 @@
+.text-center {
+    text-align: center;
+  }
+  .header-logo-center{
+    text-align: center;
+    width: 20vw;
+  }
+  .header-logo-left{
+    text-align: left;
+    width: 20vw;
+  }
+  .header-logo-right{
+    text-align: right;
+    width: 20vw;
+  }
+  .participant-placeholder{
+    border-bottom: 2px solid black;
+    /* width: 20vw;  */
+    margin: 0 auto;
+  }
+  .text-uppercase{
+    text-transform: uppercase;
+  }
+  
+  .cert-border{
+    border: #5c5c5c 2px solid;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .partner-logo{
+    background-origin: content-box;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+  }
+  .qr-container{
+    /* background-origin: content-box; */
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 190px;
+    width: 190px !important;
+    border: black solid 1px;
+    background-color: white;
+  }

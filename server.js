@@ -21,7 +21,6 @@ app.get('/redirect', function(req, res) {
 })
 
 app.use('/', express.static(__dirname + '/build'))
-app.use('/certificate?', express.static(__dirname + '/build'))
 /*app.listen(port, (err) => {
   if (err) {
     return console.log('something bad happened', err)
@@ -31,8 +30,8 @@ app.use('/certificate?', express.static(__dirname + '/build'))
 })*/
 
 var options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/encert.app/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/encert.app/fullchain.pem')
+  key: fs.readFileSync('/etc/letsencrypt/live/global.super.one/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/global.super.one/fullchain.pem')
 };
 
 http.createServer(app).listen(8080);

@@ -11,7 +11,7 @@
     "browserify": "^14.1.0"
   },
   "scripts": {
-    "browserify": "browserify requires.js -o public/bundle.js",
+    "browserify": "browserify -o public/bundle.js",
     "start": "npm run browserify; node server.js",
     "build": "react-app-rewired build",
     "test": "react-scripts test",

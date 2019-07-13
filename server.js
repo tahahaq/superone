@@ -30,8 +30,8 @@ app.use('/', express.static(__dirname + '/build'))
 })*/
 
 var options = {
-  key: fs.readFileSync('/home/ubuntu/global.super.one/privkey.pem'),
-  cert: fs.readFileSync('/home/ubuntu/global.super.one/fullchain.pem')
+  key: fs.readFileSync('~/global.super.one/privkey.pem'),
+  cert: fs.readFileSync('~/global.super.one/fullchain.pem')
 };
 
 http.createServer(app).listen(8080);

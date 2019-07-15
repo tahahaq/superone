@@ -30,8 +30,8 @@ app.use('/', express.static(__dirname + '/build'))
 })*/
 
 var options = {
-  key: fs.readFileSync('/home/ubuntu/global/privkey.pem'),
-  cert: fs.readFileSync('/home/ubuntu/global/fullchain.pem')
+  key: fs.readFileSync('/home/global/privkey.pem'),
+  cert: fs.readFileSync('/home/global/fullchain.pem')
 };
 
 http.createServer(app).listen(8080);

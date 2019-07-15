@@ -34,7 +34,7 @@ var options = {
   cert: fs.readFileSync('/global/fullchain.pem')
 };
 
-http.createServer(app).listen(8080);
-https.createServer(options, app).listen(443);
+// http.createServer(app).listen(8080);
+https.createServer(options, app).listen(8080);
 
 console.log(`server is listening on ${port}`)
